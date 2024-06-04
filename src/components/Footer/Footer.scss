@@ -1,6 +1,4 @@
-.footer{
-    margin: 0;
-}
+
 .info{
     background-color:#F5F7FA ;
     height: 216px;
@@ -17,22 +15,22 @@
 
 }
 .foot{
-    background-color: #263238;
-    height: 328px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #263238;
+    height: 328px;
     h3{
         color: #FFFFFF;
     }
-    li{
+    ul{
         color: #F5F7FA;
     }
 }
 .comp{
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 550px;
     // align-items: center;
     // padding: 6rem 26rem;
     // margin-left: 50px;
@@ -41,3 +39,15 @@
 //     margin-right: 50px; /* Adjust as needed */
 //     margin-left: 50px;
 // }
+.copy{
+    color: #F5F7FA;
+    margin-right: 50px;
+
+    a{
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 30px;
+        color: inherit;
+    }
+    
+}

@@ -1,6 +1,11 @@
 import './Footer.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import {
+    faFacebook,
+    faTwitter,
+    faInstagram
+  } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
@@ -10,23 +15,37 @@ const Footer = () => {
             
         </div>
         <div className='foot'>
-            <div className='copy'></div>
+            <div className='copy'>
+            <img src="/path/to/your/log.png" alt="Logo" />
+      <p>&copy; 2024 Olympier. All rights reserved.</p>
+      <div className="social-icons">
+        <a href="">
+          <FontAwesomeIcon icon={faFacebook} />
+        </a>
+        <a href="">
+          <FontAwesomeIcon icon={faTwitter} />
+        </a>
+        <a href="">
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
+      </div>
+            </div>
         <div className='comp'>
          <ul className='company'>
          <h3>Company</h3>
-         <li>About us</li>
-         <li>Blog</li>
-         <li>Contact us</li>
-         <li>Pricing </li>
-         <li>Testimonials</li>
+         <ul>About us</ul>
+         <ul>Blog</ul>
+         <ul>Contact us</ul>
+         <ul>Pricing </ul>
+         <ul>Testimonials</ul>
             </ul> 
             <ul className='support'>
                 <h3>Support</h3>
-                <li>Help Center</li>
-                <li>Terms of Service</li>
-                <li>Legal</li>
-                <li>Privacy Policy</li>
-                <li>Status</li>
+                <ul>Help Center</ul>
+                <ul>Terms of Service</ul>
+                <ul>Legal</ul>
+                <ul>Privacy Policy</ul>
+                <ul>Status</ul>
                 </ul> 
                 <div>
       <h3>Stay Up to Date</h3>
