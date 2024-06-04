@@ -16,4 +16,28 @@
     }
 
 }
- 
+.foot{
+    background-color: #263238;
+    height: 328px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3{
+        color: #FFFFFF;
+    }
+    li{
+        color: #F5F7FA;
+    }
+}
+.comp{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    // align-items: center;
+    // padding: 6rem 26rem;
+    // margin-left: 50px;
+}
+// .comp > * {
+//     margin-right: 50px; /* Adjust as needed */
+//     margin-left: 50px;
+// }
