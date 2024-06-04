@@ -3,6 +3,7 @@ import Footer from './components/Footer/Footer'
 import Herosection from './components/Herosection/Herosection'
 import Navbar from './components/Navbar/Navbar'
 import OurClients from './components/OurClients/OurClients'
+import './App.css'
 
 function App() {
 
