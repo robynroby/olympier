@@ -6,6 +6,7 @@ const Navbar = () => {
             <div className="navbar__logo">
                 {/* Replace with your logo image */}
                 <img src="your-logo.png" alt="Logo" />
+                <h4>Olympier Org</h4>
             </div>
             <ul className="navbar__links">
                 <li>
