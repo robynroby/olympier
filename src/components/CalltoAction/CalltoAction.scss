@@ -54,4 +54,24 @@
             // transform: rotate(-5deg);
         }
     }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+
+        .cta-content {
+            padding-left: 0;
+            text-align: center;
+        }
+
+        .cta-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            img {
+                width: 150px;
+                margin-bottom: 10px;
+            }
+        }
+    }
 }
