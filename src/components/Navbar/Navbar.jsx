@@ -1,5 +1,4 @@
-import './Navbar.scss'
-
+import './Navbar.scss';
 const Navbar = () => {
     return (
         <nav className="navbar">
@@ -13,10 +12,10 @@ const Navbar = () => {
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="/about">About</a>
+                    <a href="/aboutus">About</a>
                 </li>
                 <li>
-                    <a href="/services">Services</a>
+                    <a href="/service">Services</a>
                 </li>
             </ul>
             <a href="/contact" className="navbar__contact-btn">contact us</a>
