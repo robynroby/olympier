@@ -15,7 +15,7 @@ const CalltoAction = () => {
                 }
             },
             {
-                threshold: 0.5, // Adjust this value to control when the animation triggers
+                threshold: 0.5,
             }
         );
 
@@ -31,13 +31,13 @@ const CalltoAction = () => {
     }, []);
 
     return (
-        <div className="cta-section" ref={ctaRef}>
-            <div className={`cta-content ${isLoaded ? 'animated' : ''}`}>
+        <div className={`cta-section ${isLoaded ? 'animated' : ''}`} ref={ctaRef}>
+            <div className="cta-content">
                 <h2>Join Us in Creating a Cleaner Environment</h2>
                 <p>Take the first step towards a greener future. Partner with us to ensure efficient and responsible waste management in your community. Together, we can make a significant impact on our environment.</p>
                 <button className="cta-button">Get Started</button>
             </div>
-            <div className={`cta-images ${isLoaded ? 'animated' : ''}`}>
+            <div className="cta-images">
                 <img src='/image1.jpg' alt="Waste Management 1" />
                 <img src='/image2.jpg' alt="Waste Management 2" />
                 <img src='/image3.jpg' alt="Waste Management 3" />
