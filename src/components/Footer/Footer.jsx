@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div className='footer'>
         <div className='info'>
-            <h3 className='infor'>Pellentesque suscipit fringilla libo eu.</h3>
+            <h3 className='infor'>Olympier: Clean, Green, and Pristine.</h3>
             
         </div>
         <div className='foot'>
@@ -56,7 +56,7 @@ const Footer = () => {
             placeholder="Your email address"
             required
           />
-          <button type="submit">
+          <button className="submit">
             <FontAwesomeIcon icon={faPaperPlane} />
           </button>
         </div>

@@ -51,3 +51,28 @@
     }
     
 }
+@media (max-width: 768px){
+    // .comp{
+    //     margin-left: -30px;
+    // }
+    // .social-icons{
+    //     display: block;
+    // }
+    .foot{
+        display: block;
+        height: 480px;
+    }
+    .comp{
+        display: block;
+        margin-left: 30px;
+    }
+    .copy{
+        margin-left: 30px;
+    }
+    .submit{
+        width: 100px;
+    }
+    .input-container{
+        width: 250px;
+    }
+}
